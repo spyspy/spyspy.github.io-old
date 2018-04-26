@@ -2,14 +2,32 @@
 <html>
 <head>
 <title>Page Title</title>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"> 	
+</script>
+
 </head>
 <body>This
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 
+<button id="mybtn"> Go To Page 2</button>
+
 </body>
 </html>
 
-html
+<script>
+
+
+$('#mybtn').click(function(){
+	alert("gogogo");
+	location.href = window.location.protocol+'//'+window.location.host+''+index2.html;
+});
+
+
+</script>
 
