@@ -22,7 +22,9 @@
 
 $('#mybtn').click(function(){
 	alert("gogogo");
-	location.href = window.location.protocol+'//'+window.location.host+''+index2.html;
+	var page2url = window.location.protocol+'//'+window.location.host+''+index2.html;
+	console.log("url:" +page2url);
+	location.href = page2url;
 });
 
 
